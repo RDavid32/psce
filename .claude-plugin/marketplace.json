@@ -3,29 +3,29 @@
   "owner": {
     "name": "RDavid32"
   },
-  "description": "Claude Code plugins for PSCE department workflows.",
+  "description": "비전공자도 일반 업무 대화로 사용할 수 있는 PSCE 부서별 업무 지원 모음입니다.",
   "plugins": [
     {
       "name": "psce",
-      "displayName": "PSCE Department Assistant",
+      "displayName": "PSCE 부서별 업무 도우미",
       "source": {
         "source": "github",
         "repo": "RDavid32/psce",
         "ref": "main"
       },
-      "description": "회사 부서별 업무를 지원하는 Claude Code 플러그인",
-      "version": "0.1.1",
+      "description": "인사, 총무, 설비, 안전관리, 생산, 구매, 무역, 재무회계 업무를 쉬운 한글 대화로 도와줍니다.",
+      "version": "0.1.2",
       "repository": "https://github.com/RDavid32/psce",
       "license": "MIT",
       "tags": [
-        "hr",
-        "general-affairs",
-        "facilities",
-        "safety",
-        "production",
-        "purchasing",
-        "trade",
-        "finance-accounting"
+        "인사",
+        "총무",
+        "설비",
+        "안전관리",
+        "생산",
+        "구매",
+        "무역",
+        "재무회계"
       ]
     }
   ]

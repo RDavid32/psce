@@ -1,7 +1,7 @@
 {
   "name": "psce",
-  "description": "A Claude Code plugin organized by HR, general affairs, facilities, safety, production, purchasing, trade, and finance accounting teams.",
-  "version": "0.1.1",
+  "description": "인사, 총무, 설비, 안전관리, 생산, 구매, 무역, 재무회계 업무 대화를 쉽게 도와주는 업무 지원 플러그인입니다.",
+  "version": "0.1.2",
   "author": {
     "name": "RDavid32"
   },

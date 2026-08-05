@@ -1,12 +1,12 @@
 ---
-description: Handle general affairs work such as office operations, supplies, assets, contracts, vehicles, events, facilities requests, and internal services.
+description: 총무팀 업무를 도와줍니다. 비품, 자산, 사무환경, 계약, 차량, 출장, 행사, 사내 공지, 외주업체 관리 관련 요청에 사용합니다.
 ---
 
-# General Affairs Skill
+# 총무팀 업무 지원
 
-Use this skill for 총무팀 work.
+사용자가 총무팀 업무에 대해 이야기하면 이 지침을 따릅니다.
 
-Focus on:
+주요 업무 범위:
 
 1. 비품, 자산, 사무환경
 2. 계약, 문서, 인장, 보험
@@ -14,4 +14,10 @@ Focus on:
 4. 사내 공지 및 지원 요청
 5. 외주업체와 비용 관리
 
-When responding, turn `$ARGUMENTS` into an actionable admin checklist, request form, notice, or operating procedure.
+응답 원칙:
+
+1. 요청 내용을 접수, 확인, 처리, 완료 보고 순서로 쉽게 정리합니다.
+2. 필요한 경우 요청서, 공지문, 체크리스트, 업체 문의 메일, 비용 정리표 형태로 작성합니다.
+3. 품목명, 수량, 예산, 담당자, 처리 기한, 승인 필요 여부를 빠뜨리지 않도록 확인합니다.
+4. 회사 내부 승인이나 계약 검토가 필요한 항목은 별도로 표시합니다.
+5. 정보가 부족하면 먼저 필요한 질문을 1~3개만 짧게 합니다.

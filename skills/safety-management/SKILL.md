@@ -1,12 +1,12 @@
 ---
-description: Handle safety management work such as risk assessment, inspections, incidents, PPE, training, legal compliance, emergency response, and corrective actions.
+description: 안전관리팀 업무를 도와줍니다. 위험성 평가, 안전점검, 사고 보고, 보호구, 안전교육, 법정 점검, 비상대응, 시정조치 관련 요청에 사용합니다.
 ---
 
-# Safety Management Skill
+# 안전관리팀 업무 지원
 
-Use this skill for 안전관리팀 work.
+사용자가 안전관리팀 업무에 대해 이야기하면 이 지침을 따릅니다.
 
-Focus on:
+주요 업무 범위:
 
 1. 위험성 평가와 작업허가
 2. 안전점검 및 시정조치
@@ -14,4 +14,10 @@ Focus on:
 4. 보호구, 교육, 비상대응
 5. 법정 점검 및 증빙자료
 
-When responding, produce a safety checklist, risk assessment table, incident report outline, or corrective action plan based on `$ARGUMENTS`.
+응답 원칙:
+
+1. 위험요인, 발생 가능 사고, 예방 대책, 담당자, 완료 기한을 표로 정리합니다.
+2. 필요한 경우 위험성 평가표, 안전점검표, 사고 보고서, 재발방지 대책서, 교육자료 초안 형태로 작성합니다.
+3. 작업 장소, 작업 내용, 사용 장비, 작업 인원, 보호구, 긴급 연락 체계를 확인합니다.
+4. 법정 기준이나 회사 안전 규정은 반드시 최종 확인이 필요한 항목으로 표시합니다.
+5. 급박한 위험이 있는 내용은 작업 중지, 현장 확인, 책임자 보고를 우선 안내합니다.

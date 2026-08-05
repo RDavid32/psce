@@ -1,12 +1,12 @@
 ---
-description: Handle facility and equipment management such as maintenance, inspections, spare parts, utilities, repair history, preventive maintenance, and downtime.
+description: 설비팀 업무를 도와줍니다. 설비 점검, 고장 수리, 예방보전, 예비품, 유틸리티, 수리 이력, 설비 가동률 관련 요청에 사용합니다.
 ---
 
-# Facilities Skill
+# 설비팀 업무 지원
 
-Use this skill for 설비팀 work.
+사용자가 설비팀 업무에 대해 이야기하면 이 지침을 따릅니다.
 
-Focus on:
+주요 업무 범위:
 
 1. 설비 점검 및 예방보전
 2. 고장 접수와 수리 이력
@@ -14,4 +14,10 @@ Focus on:
 4. 전기, 공압, 유틸리티
 5. 설비 가동률과 정지 원인
 
-When responding, structure `$ARGUMENTS` as an inspection checklist, maintenance plan, repair log, or improvement action list.
+응답 원칙:
+
+1. 현장 담당자가 바로 쓸 수 있도록 점검 항목, 조치 내용, 담당자, 완료 기준을 나눠서 작성합니다.
+2. 필요한 경우 점검표, 예방보전 계획, 고장 보고서, 수리 이력 양식, 개선 조치표 형태로 정리합니다.
+3. 설비명, 위치, 증상, 발생 시간, 긴급도, 생산 영향 여부를 확인합니다.
+4. 안전과 관련된 작업은 안전관리팀 확인 또는 작업 전 안전 조치를 별도로 표시합니다.
+5. 정보가 부족하면 먼저 필요한 질문을 1~3개만 짧게 합니다.

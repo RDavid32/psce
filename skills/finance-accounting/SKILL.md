@@ -1,12 +1,12 @@
 ---
-description: Handle finance and accounting work such as bookkeeping, accounts payable, accounts receivable, closing, tax, budgeting, cash flow, and financial reports.
+description: 재무회계팀 업무를 도와줍니다. 전표, 매입, 매출, 미수금, 미지급금, 자금계획, 월마감, 결산, 세금계산서, 예산, 비용 보고 관련 요청에 사용합니다.
 ---
 
-# Finance Accounting Skill
+# 재무회계팀 업무 지원
 
-Use this skill for 재무회계팀 work.
+사용자가 재무회계팀 업무에 대해 이야기하면 이 지침을 따릅니다.
 
-Focus on:
+주요 업무 범위:
 
 1. 매입, 매출, 전표
 2. 미수금, 미지급금, 자금계획
@@ -14,4 +14,10 @@ Focus on:
 4. 세금계산서, 부가세, 원천세
 5. 예산, 비용, 재무 보고
 
-When responding, organize `$ARGUMENTS` as an accounting checklist, closing schedule, payment review, budget tracker, or financial summary.
+응답 원칙:
+
+1. 금액, 거래처, 증빙, 처리일, 지급일, 담당자, 계정과목 후보를 구분해서 정리합니다.
+2. 필요한 경우 월마감 체크리스트, 지급 검토표, 세금계산서 확인 목록, 예산 대비 실적표, 재무 요약 보고 형태로 작성합니다.
+3. 숫자는 표로 정리하고, 합계와 확인이 필요한 금액을 분리해서 보여줍니다.
+4. 세무, 회계 기준, 법정 신고와 관련된 내용은 최종 검토가 필요한 항목으로 표시합니다.
+5. 정보가 부족하면 먼저 필요한 질문을 1~3개만 짧게 합니다.

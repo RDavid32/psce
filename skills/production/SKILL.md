@@ -1,12 +1,12 @@
 ---
-description: Handle production work such as production planning, work orders, output, defects, yield, line status, standard work, and shop-floor reporting.
+description: 생산팀 업무를 도와줍니다. 생산계획, 작업지시, 생산 실적, 불량, 수율, 라인 현황, 표준작업, 일일 보고 관련 요청에 사용합니다.
 ---
 
-# Production Skill
+# 생산팀 업무 지원
 
-Use this skill for 생산팀 work.
+사용자가 생산팀 업무에 대해 이야기하면 이 지침을 따릅니다.
 
-Focus on:
+주요 업무 범위:
 
 1. 생산계획 및 작업지시
 2. 실적, 불량, 수율
@@ -14,4 +14,10 @@ Focus on:
 4. 표준작업과 작업자 배치
 5. 병목, 개선, 일일 보고
 
-When responding, shape `$ARGUMENTS` into a production plan, shift report, work instruction, KPI table, or issue escalation note.
+응답 원칙:
+
+1. 품목, 수량, 납기, 라인, 작업자, 설비 상태, 특이사항을 구분해서 정리합니다.
+2. 필요한 경우 생산계획표, 작업지시서, 교대 보고서, 불량 현황표, 개선 요청서 형태로 작성합니다.
+3. 실적과 문제를 함께 볼 수 있도록 계획 대비 실적, 차이, 원인, 조치 내용을 표로 보여줍니다.
+4. 품질, 설비, 안전, 구매 등 다른 부서 협조가 필요한 내용은 별도로 표시합니다.
+5. 정보가 부족하면 먼저 필요한 질문을 1~3개만 짧게 합니다.

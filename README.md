@@ -1,78 +1,116 @@
-# psce Claude Code Plugin
+# PSCE 부서별 업무 도우미
 
-Starter Claude Code plugin organized by company departments.
+인사, 총무, 설비, 안전관리, 생산, 구매, 무역, 재무회계 업무를 쉽게 도와주는 업무 대화용 도우미입니다.
 
-## Structure
+이 도구를 사용하는 직원은 개발 지식이나 명령어를 몰라도 됩니다. Cowork에서 평소 업무를 이야기하듯이 요청하면 됩니다.
 
-```text
-.
-+-- .claude-plugin/
-|   `-- plugin.json
-+-- skills/
-|   +-- finance-accounting/
-|   +-- facilities/
-|   +-- general-affairs/
-|   +-- hello/
-|   +-- hr/
-|   +-- production/
-|   +-- project-brief/
-|   +-- purchasing/
-|   +-- safety-management/
-|   `-- trade/
-`-- README.md
+## 이렇게 말하면 됩니다
+
+인사팀:
+
+```
+신규 입사자 온보딩 체크리스트 만들어줘.
+퇴사자 처리 절차를 담당자별로 정리해줘.
+이번 분기 교육 참석 현황 보고서 초안 만들어줘.
 ```
 
-## Local Test
+총무팀:
 
-From this directory:
-
-```bash
-claude --plugin-dir .
+```
+사무실 비품 구매 요청 양식 만들어줘.
+차량 점검 일정표를 정리해줘.
+전 직원에게 보낼 사내 공지문 작성해줘.
 ```
 
-Then run one of the namespaced skills inside Claude Code:
+설비팀:
 
-```text
-/psce:hr 신규 입사자 온보딩 체크리스트
-/psce:general-affairs 사무실 비품 구매 요청 양식
-/psce:facilities 프레스 설비 예방보전 계획
-/psce:safety-management 지게차 작업 위험성 평가
-/psce:production 주간 생산계획과 불량률 보고
-/psce:purchasing 협력사 견적 비교표
-/psce:trade 수출 선적서류 체크리스트
-/psce:finance-accounting 월마감 체크리스트
+```
+프레스 설비 예방보전 계획을 만들어줘.
+설비 고장 보고서 양식 만들어줘.
+이번 주 설비 점검 체크리스트 정리해줘.
 ```
 
-After editing plugin files in an open Claude Code session, reload them:
+안전관리팀:
 
-```text
-/reload-plugins
+```
+지게차 작업 위험성 평가표 만들어줘.
+아차사고 보고서 양식 작성해줘.
+작업 전 안전점검 체크리스트 만들어줘.
 ```
 
-## Marketplace Test
+생산팀:
 
-Add this marketplace from GitHub:
-
-```text
-/plugin marketplace add RDavid32/psce
+```
+주간 생산계획표를 만들어줘.
+오늘 생산 실적과 불량 현황을 보고서로 정리해줘.
+라인별 작업지시서 초안 만들어줘.
 ```
 
-If a previous failed marketplace entry is cached, remove it first:
+구매팀:
 
-```text
+```
+협력사 견적 비교표 만들어줘.
+구매요청서 양식 작성해줘.
+납기 지연 업체에 보낼 메일 작성해줘.
+```
+
+무역팀:
+
+```
+수출 선적서류 체크리스트 만들어줘.
+해외 거래처에 보낼 납기 확인 메일 작성해줘.
+수입 통관 진행 현황을 정리해줘.
+```
+
+재무회계팀:
+
+```
+월마감 체크리스트 만들어줘.
+이번 달 비용 집행 현황을 표로 정리해줘.
+세금계산서 누락 확인 목록 만들어줘.
+```
+
+## 답변 방식
+
+- 어려운 표현보다 쉬운 한글을 우선합니다.
+- 체크리스트, 표, 공지문, 이메일, 보고서 초안처럼 바로 쓸 수 있는 형태로 정리합니다.
+- 담당자, 기한, 필요한 자료, 확인할 사항을 나눠서 보여줍니다.
+- 법무, 세무, 안전 법규처럼 최종 확인이 필요한 내용은 따로 표시합니다.
+- 정보가 부족하면 필요한 질문만 짧게 먼저 합니다.
+
+## 포함된 업무 영역
+
+```
+인사팀
+총무팀
+설비팀
+안전관리팀
+생산팀
+구매팀
+무역팀
+재무회계팀
+```
+
+## 관리자용 설치 정보
+
+이 부분은 관리자나 설정 담당자만 보면 됩니다. 일반 사용자는 아래 명령어를 실행하지 않아도 됩니다.
+
+Cowork 또는 플러그인 마켓플레이스에 등록할 때 저장소 주소가 필요하면 아래 주소를 사용합니다.
+
+```
+https://github.com/RDavid32/psce
+```
+
+이미 실패한 마켓플레이스 항목이 캐시에 남아 있으면 기존 항목을 삭제한 뒤 다시 등록합니다.
+
+```
 /plugin marketplace remove psce-marketplace
 /plugin marketplace add RDavid32/psce
-```
-
-Then install the plugin:
-
-```text
 /plugin install psce@psce-marketplace
 ```
 
-## Notes
+## 관리 메모
 
-- `.claude-plugin/plugin.json` contains plugin metadata.
-- `.claude-plugin/marketplace.json` contains the marketplace catalog.
-- `skills/<skill-name>/SKILL.md` defines each skill.
-- Skills are namespaced by the plugin name, so `skills/hello` becomes `/psce:hello`.
+- `.claude-plugin/plugin.json`은 도구 이름과 설명을 담고 있습니다.
+- `.claude-plugin/marketplace.json`은 마켓플레이스 등록 정보를 담고 있습니다.
+- `skills` 폴더에는 부서별 업무 처리 방식이 들어 있습니다.

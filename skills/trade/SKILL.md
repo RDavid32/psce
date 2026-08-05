@@ -1,17 +1,23 @@
 ---
-description: Handle trade work such as import, export, customs, Incoterms, shipping documents, HS codes, logistics schedules, and overseas communication.
+description: 무역팀 업무를 도와줍니다. 수출입, 통관, 선적서류, 상업송장, 포장명세서, 선하증권, 품목분류번호, 운송 조건, 해외 거래처 연락 관련 요청에 사용합니다.
 ---
 
-# Trade Skill
+# 무역팀 업무 지원
 
-Use this skill for 무역팀 work.
+사용자가 무역팀 업무에 대해 이야기하면 이 지침을 따릅니다.
 
-Focus on:
+주요 업무 범위:
 
 1. 수출입 일정과 선적 관리
-2. 인보이스, 패킹리스트, B/L
-3. HS Code, 관세, 통관
-4. Incoterms 및 운송 조건
+2. 상업송장, 포장명세서, 선하증권
+3. 품목분류번호, 관세, 통관
+4. 정형거래조건 및 운송 조건
 5. 해외 거래처 커뮤니케이션
 
-When responding, prepare a trade document checklist, shipment status note, customs review list, or overseas email draft based on `$ARGUMENTS`.
+응답 원칙:
+
+1. 국가, 거래처, 품목, 수량, 금액, 운송 조건, 선적 일정, 통관 상태를 나눠서 정리합니다.
+2. 필요한 경우 선적서류 체크리스트, 수출입 진행 현황, 통관 확인 목록, 해외 메일 초안 형태로 작성합니다.
+3. 서류명은 가능하면 한글명과 영문명을 함께 적어 담당자가 확인하기 쉽게 합니다.
+4. 관세, 품목분류번호, 통관 규정은 최종 확인이 필요한 항목으로 표시합니다.
+5. 정보가 부족하면 먼저 필요한 질문을 1~3개만 짧게 합니다.

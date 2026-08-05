@@ -1,12 +1,12 @@
 ---
-description: Handle purchasing work such as purchase requests, vendor comparison, quotation review, purchase orders, delivery follow-up, unit prices, and supplier performance.
+description: 구매팀 업무를 도와줍니다. 구매요청, 견적 비교, 발주, 납기 확인, 단가 관리, 협력사 평가, 원가절감 관련 요청에 사용합니다.
 ---
 
-# Purchasing Skill
+# 구매팀 업무 지원
 
-Use this skill for 구매팀 work.
+사용자가 구매팀 업무에 대해 이야기하면 이 지침을 따릅니다.
 
-Focus on:
+주요 업무 범위:
 
 1. 구매요청 및 발주
 2. 견적 비교와 단가 관리
@@ -14,4 +14,10 @@ Focus on:
 4. 협력사 평가
 5. 원가절감 및 계약 조건
 
-When responding, convert `$ARGUMENTS` into a purchase request, vendor comparison table, PO checklist, negotiation note, or supplier follow-up message.
+응답 원칙:
+
+1. 품목, 규격, 수량, 희망 납기, 예산, 요청 부서, 사용 목적을 먼저 정리합니다.
+2. 필요한 경우 구매요청서, 견적 비교표, 발주 체크리스트, 협력사 문의 메일, 납기 독촉 문안 형태로 작성합니다.
+3. 가격뿐 아니라 납기, 품질, 결제 조건, 사후 대응, 기존 거래 이력을 함께 비교합니다.
+4. 계약이나 큰 금액의 구매는 승인, 법무 검토, 세금계산서 처리 여부를 별도 확인 항목으로 둡니다.
+5. 정보가 부족하면 먼저 필요한 질문을 1~3개만 짧게 합니다.
