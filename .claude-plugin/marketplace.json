@@ -3,11 +3,30 @@
   "owner": {
     "name": "RDavid32"
   },
+  "description": "Claude Code plugins for PSCE department workflows.",
   "plugins": [
     {
       "name": "psce",
-      "source": ".",
-      "description": "회사 부서별 업무를 지원하는 Claude Code 플러그인"
+      "displayName": "PSCE Department Assistant",
+      "source": {
+        "source": "github",
+        "repo": "RDavid32/psce",
+        "ref": "main"
+      },
+      "description": "회사 부서별 업무를 지원하는 Claude Code 플러그인",
+      "version": "0.1.1",
+      "repository": "https://github.com/RDavid32/psce",
+      "license": "MIT",
+      "tags": [
+        "hr",
+        "general-affairs",
+        "facilities",
+        "safety",
+        "production",
+        "purchasing",
+        "trade",
+        "finance-accounting"
+      ]
     }
   ]
 }

@@ -49,8 +49,30 @@ After editing plugin files in an open Claude Code session, reload them:
 /reload-plugins
 ```
 
+## Marketplace Test
+
+Add this marketplace from GitHub:
+
+```text
+/plugin marketplace add RDavid32/psce
+```
+
+If a previous failed marketplace entry is cached, remove it first:
+
+```text
+/plugin marketplace remove psce-marketplace
+/plugin marketplace add RDavid32/psce
+```
+
+Then install the plugin:
+
+```text
+/plugin install psce@psce-marketplace
+```
+
 ## Notes
 
 - `.claude-plugin/plugin.json` contains plugin metadata.
+- `.claude-plugin/marketplace.json` contains the marketplace catalog.
 - `skills/<skill-name>/SKILL.md` defines each skill.
 - Skills are namespaced by the plugin name, so `skills/hello` becomes `/psce:hello`.
