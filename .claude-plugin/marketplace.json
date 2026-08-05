@@ -3,7 +3,7 @@
   "owner": {
     "name": "RDavid32"
   },
-  "description": "비전공자도 일반 업무 대화로 사용할 수 있는 PSCE 부서별 업무 지원 모음입니다.",
+  "description": "회사 연결 자료를 확인해 직원 질문에 쉽고 출처 있는 답변을 제공하는 PSCE 부서별 업무 지원 모음입니다.",
   "plugins": [
     {
       "name": "psce",
@@ -13,8 +13,8 @@
         "repo": "RDavid32/psce",
         "ref": "main"
       },
-      "description": "인사, 총무, 설비, 안전관리, 생산, 구매, 무역, 재무회계 업무를 쉬운 한글 대화로 도와줍니다.",
-      "version": "0.1.2",
+      "description": "인사, 총무, 설비, 안전관리, 생산, 구매, 무역, 재무회계 질문에 회사 자료를 바탕으로 쉬운 한글 답변을 제공합니다.",
+      "version": "0.1.3",
       "repository": "https://github.com/RDavid32/psce",
       "license": "MIT",
       "tags": [
