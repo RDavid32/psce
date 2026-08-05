@@ -1,0 +1,6 @@
+{
+  "name": "psce",
+  "description": "A starter Claude Code plugin for project workflow skills.",
+  "version": "0.1.0",
+  "license": "MIT"
+}
