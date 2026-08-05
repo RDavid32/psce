@@ -1,6 +1,6 @@
 {
   "name": "psce",
-  "description": "A starter Claude Code plugin for project workflow skills.",
+  "description": "A Claude Code plugin organized by HR, general affairs, facilities, safety, production, purchasing, trade, and finance accounting teams.",
   "version": "0.1.0",
   "license": "MIT"
 }
