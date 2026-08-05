@@ -1,0 +1,13 @@
+{
+  "name": "psce-marketplace",
+  "owner": {
+    "name": "RDavid32"
+  },
+  "plugins": [
+    {
+      "name": "psce",
+      "source": ".",
+      "description": "회사 부서별 업무를 지원하는 Claude Code 플러그인"
+    }
+  ]
+}
